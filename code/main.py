@@ -1,5 +1,14 @@
-pernyataan = "Gatot kaca nyanyi di pinggir jalan"
-iKata = pernyataan.find("kaca")
-pernyataanBaru = pernyataan.replace("jalan", "kali")
-print(iKata)
-print(pernyataanBaru)
+import csv
+
+csvfile = open('presensi.csv', newline='')
+files = csv.reader(csvfile, delimiter=',')
+
+counter = 0
+nama = []
+
+for idx in files:
+    if counter == 0:
+        print('skip')
+    else:
+        print(idx)
+    counter += 1
