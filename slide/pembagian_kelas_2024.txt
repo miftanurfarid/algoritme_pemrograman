@@ -1,0 +1,4 @@
+E = Agung -> Happy
+G = Ridho -> Farid
+D = Farid -> Ridho/Amalia
+L = Kharis -> Agung/Amalia
